@@ -10,6 +10,11 @@ class Checkbox extends Field
 {
     use HasDocs;
 
+    /**
+     * @var bool
+     */
+    protected $default = false;
+
     public function getValueSanitizer(): callable
     {
         return 'absint';
@@ -18,6 +23,13 @@ class Checkbox extends Field
     public function getValueType(): string
     {
         return 'integer';
+    }
+
+    public function default(bool $value): self
+    {
+        $this->default = $value;
+
+        return $this;
     }
 
     public function render(): void
@@ -36,7 +48,7 @@ class Checkbox extends Field
                     value="1"
                     class="h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary"
                     <?php 
-        if (Setting::get($this->getKey())) echo 'checked';
+        if (Setting::boolean($this->getKey(), $this->default) === true) echo 'checked';
         ?>
                 >
             </div>

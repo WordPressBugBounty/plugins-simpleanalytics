@@ -2,25 +2,94 @@
 
 Contributors: simpleanalytics
 Donate link: https://simpleanalytics.com
-Tags: privacy-first, privacy-friendly, free analytics, website analytics, simple analytics, analytics, statistics
+Tags: privacy-first, privacy-friendly, free analytics, website analytics, simple analytics, analytics, statistics, website traffic, traffic monitoring
 Requires at least: 5.2
-Tested up to: 6.7
+Tested up to: 6.7.1
 Requires PHP: 7.2.0
-Stable tag: 1.27
+Stable tag: 1.40
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Privacy-friendly analytics with an actionable dashboard
+Simple, free, and privacy-friendly website analytics
+
+https://vimeo.com/1033359807/dde00e7f39
 
 == Description ==
 
 Simple Analytics gives you the analytics you need without invading the privacy of your users, with a clean interface and simple integration.
 
-- We show you the essentials: page views, referrers, top pages, and screen sizes.
-- We don't use cookies or collect any personal data. So no cookie banners or GDPR to worry about.
-- When a service is free, you are the product. We won't ever sell your data. As a result, we need to charge.
+1.  **Privacy-friendly by design**: Simple Analytics is built with privacy in mind. Get the insights you need while respecting your users’ privacy.
+2.  **Simple interface**: Google Analytics is a monstrosity of custom dashboards and features. At Simple Analytics, we provide the insights you need in a clear and straightforward interface.
+3.  **No cookiebanner required**. Simple Analytics does not use cookies or any other identifiers, meaning you don’t need to add an annoying cookiebanner to your website. You can use Simple Analytics without the need for consent.
+4.  **GDPR-compliant**. Simple Analytics is GDPR-compliant and out-of-the-box since we don’t collect, store, or process personally identifiable information.
+5.  **Easy integration**. Simple Analytics is easy to install. You can use our WordPress plugin to get started right away. It’s also possible to import your historical Google Analytics traffic so you don’t lose any data switching to Simple Analytics.
+6.  **It’s free**. Simple Analytics has a free option to get started. There is a 14-day free trial to explore our paid features. However, you can use Simple Analytics for free forever if you like.
 
-> You need to have a paid subscription from [Simple Analytics](https://simpleanalytics.com/?ref=wordpress).
+Check our [live demo](https://dashboard.simpleanalytics.com/simpleanalytics.com)
+
+Simple Analytics is entirely self-funded and proudly supported by our 18500+ users. We don't sell your data, we don't do ads, and we don't have investors that tell us what to do. We're here to build a product that you love.
+
+Use it for free as long as you need, or if you're happy, consider one of our paid options for more features and more data history.
+
+== Features ==
+
+**Events**
+-   Event Tracking: Monitor specific user interactions that are not captured by standard page views, such as button clicks, form submissions, or video plays.
+
+![The Events Explorer](https://assets.simpleanalytics.com/plugins/wordpress/event-explorer.png)
+
+**Goals**
+-   Goal Tracking: Set specific goals to monitor user interactions on your website, such as conversions or engagement metrics.
+-   Goal Cards: Visual representations of your goals that allow for quick performance assessments.
+-   Custom Filters: Create filters to refine the data associated with each goal, making it easier to analyze specific user behaviors.
+
+![Goals dashboard](https://assets.simpleanalytics.com/plugins/wordpress/goals.png)
+
+**Ai Analytics**
+-   Chat with your analytics to generate custom insights and dashboards.
+
+https://vimeo.com/1033359881/7e93b527ab
+
+**Custom Views**
+-   Permanent Filters: Establish permanent filters on your dashboard to focus on specific data sets.
+-   Multi-Domain Merging: Combine data from multiple domains into a single dashboard for a comprehensive overview.
+-   Access Control: Share limited views of your analytics data with team members or stakeholders.
+
+**Filters**
+-   Data Filtering: Apply filters to exclude certain traffic sources or user behaviors, allowing for cleaner, more relevant data analysis.
+
+**Export Your Data**
+-   Data Export Options: Easily export your analytics data in various formats for further analysis or reporting.
+
+**Import Google Analytics Data**
+-   Data Migration: Import historical data from Google Analytics to maintain continuity in your analytics tracking.
+
+**Email Reports**
+-   Automated Reporting: Set up automated email reports to receive regular updates on your website’s performance metrics.
+
+**Bypass Ad-Blockers**
+-   Ad-Blocker Resilience: The tracking script is designed to bypass common ad-blockers, ensuring that you capture more accurate visitor data.
+
+**Robot Blocking**
+-   Bot Traffic Management: Automatically block known bots from skewing your analytics data, leading to more reliable insights.
+
+**Hide Referral SPAM**
+-   Spam Filtering: Filter out referral spam to ensure that your analytics data reflects genuine user interactions.
+
+**Embed Chart on Your Site**
+-   Data Visualization: Embed analytics charts directly on your website for live data displays, enhancing transparency.
+
+**Trend Lines**
+-   Performance Tracking: Utilize trend lines in your analytics to visualize performance over time, aiding in identifying patterns and forecasting.
+
+**Annotations**
+-   Event Marking: Add annotations to your data to mark significant events or changes, providing context for fluctuations in your analytics.
+
+**Block Your Visits Extension**
+-   Personal Visit Exclusion: Use an extension to block your own visits from being tracked, ensuring that your analytics reflect genuine user activity.
+
+**iOS App**
+-   Mobile Access: Access your analytics data on the go with a dedicated iOS app, allowing for real-time insights wherever you are.
 
 == Installation ==
 
@@ -46,9 +115,9 @@ Installing "Simple Analytics" can be done in multiple ways.
 
 == Frequently Asked Questions ==
 
-= Do I need a paid subscription? =
+= Is Simple Analytics free? =
 
-Yes. You can get a subscription at [Simple Analytics](https://simpleanalytics.com/?ref=wordpress).
+Yes. You can use Simple Analytics for free forever. You only need to create an account at [Simple Analytics](https://simpleanalytics.com/?ref=wordpress).
 
 = Where can I see my dashboard? =
 
@@ -62,17 +131,103 @@ See our [documentation here](https://docs.simpleanalytics.com/?ref=wordpress).
 
 You can [leave your feedback here](https://simpleanalytics.com/feedback?ref=wordpress).
 
-== Screenshots ==
-
-1. The dashboard of Simple Analytics
-2. We have dark mode
-3. See Tweets that got you some traffic
-
 == Upgrade Notice ==
 
 No changes needed for upgrades.
 
 == Changelog ==
+
+= 1.40 =
+* 2025-01-28
+* Changes:
+* Use new 10up/action-wordpress-plugin-deploy version
+* Release 1.39: Code updates
+
+
+= 1.39 =
+* 2025-01-28
+* Changes:
+* Add links to images and videos
+* Update wordpress readme.txt
+* Release 1.38: Code updates
+
+
+= 1.38 =
+* 2025-01-27
+* Changes:
+* Release 1.37: Code updates
+
+
+= 1.37 =
+* 2025-01-20
+* Changes:
+* Release 1.36: Code updates
+
+
+= 1.36 =
+* 2025-01-13
+* Changes:
+* Release 1.35: Code updates
+
+
+= 1.35 =
+* 2025-01-06
+* Changes:
+* Release 1.34: Code updates
+
+
+= 1.34 =
+* 2024-12-30
+* Changes:
+* Release 1.33: Code updates
+
+
+= 1.33 =
+* 2024-12-23
+* Changes:
+* Release 1.32: Code updates
+
+
+= 1.32 =
+* 2024-12-16
+* Changes:
+* Release 1.31: Code updates
+
+
+= 1.31 =
+* 2024-12-09
+* Changes:
+* Release 1.30: Code updates
+
+
+= 1.30 =
+* 2024-12-02
+* Changes:
+* Release 1.29: Code updates
+
+
+= 1.29 =
+* 2024-11-25
+* Changes:
+* Release 1.28: Code updates and support for WordPress 6.7.1
+
+
+= 1.28 =
+* 2024-11-21
+* Tested up to WordPress 6.7.1
+* Changes:
+* Fix invalid changelog multiline format
+* Fix invalid changelog format
+* Run awk instead of sed to consistently run on mac and linux
+* Run prettier to cleanup code
+* Remove rebase in git pull
+* Improve release.sh script and changelog
+* Use changelog from release script
+* Allow regualar commits
+* Set the checkbox default in the UI when empty
+* Fix boolean value default retrieval
+* Update version to support WordPress 6.7
+
 
 = 1.27 =
 * 2024-11-18
