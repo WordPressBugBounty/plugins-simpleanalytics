@@ -4,9 +4,9 @@ Contributors: simpleanalytics
 Donate link: https://simpleanalytics.com
 Tags: privacy-first, privacy-friendly, free analytics, website analytics, simple analytics, analytics, statistics, website traffic, traffic monitoring
 Requires at least: 5.2
-Tested up to: 6.7.1
+Tested up to: 6.7.2
 Requires PHP: 7.2.0
-Stable tag: 1.40
+Stable tag: 1.49
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -136,6 +136,61 @@ You can [leave your feedback here](https://simpleanalytics.com/feedback?ref=word
 No changes needed for upgrades.
 
 == Changelog ==
+
+= 1.49 =
+* 2025-03-31
+* Changes:
+* Release 1.48: Code updates
+
+
+= 1.48 =
+* 2025-03-24
+* Changes:
+* Release 1.47: Code updates
+
+
+= 1.47 =
+* 2025-03-17
+* Changes:
+* Release 1.46: Code updates
+
+
+= 1.46 =
+* 2025-03-10
+* Changes:
+* Release 1.45: Code updates
+
+
+= 1.45 =
+* 2025-03-03
+* Changes:
+* Release 1.44: Code updates
+
+
+= 1.44 =
+* 2025-02-24
+* Changes:
+* Release 1.43: Code updates and support for WordPress 6.7.2
+
+
+= 1.43 =
+* 2025-02-17
+* Tested up to WordPress 6.7.2
+* Changes:
+* Release 1.42: Code updates
+
+
+= 1.42 =
+* 2025-02-10
+* Changes:
+* Release 1.41: Code updates
+
+
+= 1.41 =
+* 2025-02-03
+* Changes:
+* Release 1.40: Code updates
+
 
 = 1.40 =
 * 2025-01-28
