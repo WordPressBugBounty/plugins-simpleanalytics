@@ -751,498 +751,511 @@ input:where([type='file']):focus{
   outline: 1px auto -webkit-focus-ring-color;
 }
 
-.sa-settings .static{
+.static{
   position: static;
 }
 
-.sa-settings .relative{
+.relative{
   position: relative;
 }
 
-.sa-settings .mx-auto{
+.mx-auto{
   margin-left: auto;
   margin-right: auto;
 }
 
-.sa-settings .-mb-px{
+.-mb-px{
   margin-bottom: -1px;
 }
 
-.sa-settings .ml-2\.5{
+.mb-7{
+  margin-bottom: 1.75rem;
+}
+
+.ml-2\.5{
   margin-left: 0.625rem;
 }
 
-.sa-settings .ml-3{
+.ml-3{
   margin-left: 0.75rem;
 }
 
-.sa-settings .mr-0\.5{
+.mr-0\.5{
   margin-right: 0.125rem;
 }
 
-.sa-settings .mr-1{
+.mr-1{
   margin-right: 0.25rem;
 }
 
-.sa-settings .mr-2{
+.mr-2{
   margin-right: 0.5rem;
 }
 
-.sa-settings .mt-2{
+.mt-2{
   margin-top: 0.5rem;
 }
 
-.sa-settings .mt-4{
+.mt-4{
   margin-top: 1rem;
 }
 
-.sa-settings .mt-6{
+.mt-6{
   margin-top: 1.5rem;
 }
 
-.sa-settings .block{
+.block{
   display: block;
 }
 
-.sa-settings .inline-block{
+.inline-block{
   display: inline-block;
 }
 
-.sa-settings .flex{
+.flex{
   display: flex;
 }
 
-.sa-settings .inline-flex{
+.inline-flex{
   display: inline-flex;
 }
 
-.sa-settings .grid{
+.grid{
   display: grid;
 }
 
-.sa-settings .h-10{
+.h-10{
   height: 2.5rem;
 }
 
-.sa-settings .h-3\.5{
+.h-3\.5{
   height: 0.875rem;
 }
 
-.sa-settings .h-4{
+.h-4{
   height: 1rem;
 }
 
-.sa-settings .h-5{
+.h-5{
   height: 1.25rem;
 }
 
-.sa-settings .h-6{
+.h-6{
   height: 1.5rem;
 }
 
-.sa-settings .w-3\.5{
+.w-3\.5{
   width: 0.875rem;
 }
 
-.sa-settings .w-4{
+.w-4{
   width: 1rem;
 }
 
-.sa-settings .w-5{
+.w-5{
   width: 1.25rem;
 }
 
-.sa-settings .w-auto{
+.w-auto{
   width: auto;
 }
 
-.sa-settings .w-full{
+.w-full{
   width: 100%;
 }
 
-.sa-settings .max-w-3xl{
+.max-w-3xl{
   max-width: 48rem;
 }
 
-.sa-settings .flex-1{
+.flex-1{
   flex: 1 1 0%;
 }
 
-.sa-settings .flex-shrink-0{
+.flex-shrink-0{
   flex-shrink: 0;
 }
 
-.sa-settings .grid-cols-1{
+.grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.sa-settings .flex-col{
+.flex-col{
   flex-direction: column;
 }
 
-.sa-settings .items-start{
+.items-start{
   align-items: flex-start;
 }
 
-.sa-settings .items-center{
+.items-center{
   align-items: center;
 }
 
-.sa-settings .justify-start{
+.justify-start{
   justify-content: flex-start;
 }
 
-.sa-settings .justify-between{
+.justify-between{
   justify-content: space-between;
 }
 
-.sa-settings .gap-5{
+.gap-5{
   gap: 1.25rem;
 }
 
-.sa-settings .gap-x-3{
+.gap-x-3{
   -moz-column-gap: 0.75rem;
        column-gap: 0.75rem;
 }
 
-.sa-settings .gap-x-6{
+.gap-x-6{
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
 }
 
-.sa-settings .gap-y-8{
+.gap-y-8{
   row-gap: 2rem;
 }
 
-.sa-settings :is(.space-y-2 > :not([hidden]) ~ :not([hidden])){
+.space-y-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
-.sa-settings .whitespace-nowrap{
+.whitespace-nowrap{
   white-space: nowrap;
 }
 
-.sa-settings .rounded{
+.rounded{
   border-radius: 0.25rem;
 }
 
-.sa-settings .rounded-md{
+.rounded-md{
   border-radius: 0.375rem;
 }
 
-.sa-settings .border-0{
+.border-0{
   border-width: 0px;
 }
 
-.sa-settings .border-b{
+.border-b{
   border-bottom-width: 1px;
 }
 
-.sa-settings .border-b-3{
+.border-b-3{
   border-bottom-width: 3px;
 }
 
-.sa-settings .border-gray-300{
+.border-gray-300{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
 }
 
-.sa-settings .border-gray-900\/10{
+.border-gray-900\/10{
   border-color: rgb(17 24 39 / 0.1);
 }
 
-.sa-settings .border-primary{
+.border-primary{
   --tw-border-opacity: 1;
   border-color: rgb(255 79 100 / var(--tw-border-opacity, 1));
 }
 
-.sa-settings .border-transparent{
+.border-transparent{
   border-color: transparent;
 }
 
-.sa-settings .bg-blue-50{
+.bg-blue-50{
   --tw-bg-opacity: 1;
   background-color: rgb(239 246 255 / var(--tw-bg-opacity, 1));
 }
 
-.sa-settings .bg-primary{
+.bg-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(255 79 100 / var(--tw-bg-opacity, 1));
 }
 
-.sa-settings .bg-primaryBg{
+.bg-primaryBg{
   --tw-bg-opacity: 1;
   background-color: rgb(238 249 255 / var(--tw-bg-opacity, 1));
 }
 
-.sa-settings .bg-white{
+.bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.sa-settings .p-4{
+.p-4{
   padding: 1rem;
 }
 
-.sa-settings .px-2{
+.px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
 
-.sa-settings .px-3{
+.px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
 
-.sa-settings .px-3\.5{
+.px-3\.5{
   padding-left: 0.875rem;
   padding-right: 0.875rem;
 }
 
-.sa-settings .px-4{
+.px-4{
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.sa-settings .py-1{
+.py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
 
-.sa-settings .py-1\.5{
+.py-1\.5{
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
 }
 
-.sa-settings .py-2{
+.py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.sa-settings .py-6{
+.py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 
-.sa-settings .pb-2{
+.pb-2{
   padding-bottom: 0.5rem;
 }
 
-.sa-settings .pb-7{
+.pb-7{
   padding-bottom: 1.75rem;
 }
 
-.sa-settings .pt-5{
+.pt-5{
   padding-top: 1.25rem;
 }
 
-.sa-settings .text-base{
+.text-base{
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-.sa-settings .text-sm{
+.text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.sa-settings .text-xs{
+.text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
 }
 
-.sa-settings .font-medium{
+.font-medium{
   font-weight: 500;
 }
 
-.sa-settings .font-semibold{
+.font-semibold{
   font-weight: 600;
 }
 
-.sa-settings .leading-6{
+.leading-6{
   line-height: 1.5rem;
 }
 
-.sa-settings .text-blue-400{
+.text-blue-400{
   --tw-text-opacity: 1;
   color: rgb(96 165 250 / var(--tw-text-opacity, 1));
 }
 
-.sa-settings .text-blue-700{
+.text-blue-700{
   --tw-text-opacity: 1;
   color: rgb(29 78 216 / var(--tw-text-opacity, 1));
 }
 
-.sa-settings .text-gray-500{
+.text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 
-.sa-settings .text-gray-900{
+.text-gray-700{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-900{
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity, 1));
 }
 
-.sa-settings .text-littleMuted{
+.text-littleMuted{
   --tw-text-opacity: 1;
   color: rgb(104 121 123 / var(--tw-text-opacity, 1));
 }
 
-.sa-settings .text-primary{
+.text-primary{
   --tw-text-opacity: 1;
   color: rgb(255 79 100 / var(--tw-text-opacity, 1));
 }
 
-.sa-settings .text-white{
+.text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.sa-settings .shadow-sm{
+.shadow-sm{
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.sa-settings .ring-1{
+.ring-1{
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.sa-settings .ring-inset{
+.ring-inset{
   --tw-ring-inset: inset;
 }
 
-.sa-settings .ring-gray-300{
+.ring-gray-300{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(209 213 219 / var(--tw-ring-opacity, 1));
 }
 
-.sa-settings .filter{
+.filter{
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.sa-settings .placeholder\:text-gray-400::-moz-placeholder{
+.placeholder\:text-gray-400::-moz-placeholder{
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
 
-.sa-settings .placeholder\:text-gray-400::placeholder{
+.placeholder\:text-gray-400::placeholder{
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
 
-.sa-settings .hover\:border-gray-300:hover{
+.hover\:border-gray-300:hover{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
 }
 
-.sa-settings .hover\:bg-gray-50:hover{
+.hover\:bg-gray-50:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
 }
 
-.sa-settings .hover\:bg-red-500:hover{
+.hover\:bg-red-500:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
 }
 
-.sa-settings .hover\:text-gray-700:hover{
+.hover\:text-gray-700:hover{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
 
-.sa-settings .focus\:ring-2:focus{
+.hover\:underline:hover{
+  text-decoration-line: underline;
+}
+
+.focus\:ring-2:focus{
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.sa-settings .focus\:ring-inset:focus{
+.focus\:ring-inset:focus{
   --tw-ring-inset: inset;
 }
 
-.sa-settings .focus\:ring-primary:focus{
+.focus\:ring-primary:focus{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(255 79 100 / var(--tw-ring-opacity, 1));
 }
 
-.sa-settings .focus-visible\:outline:focus-visible{
+.focus-visible\:outline:focus-visible{
   outline-style: solid;
 }
 
-.sa-settings .focus-visible\:outline-2:focus-visible{
+.focus-visible\:outline-2:focus-visible{
   outline-width: 2px;
 }
 
-.sa-settings .focus-visible\:outline-offset-2:focus-visible{
+.focus-visible\:outline-offset-2:focus-visible{
   outline-offset: 2px;
 }
 
-.sa-settings .focus-visible\:outline-primary:focus-visible{
+.focus-visible\:outline-primary:focus-visible{
   outline-color: #FF4F64;
 }
 
 @media (min-width: 640px){
-  .sa-settings .sm\:col-span-4{
+  .sm\:col-span-4{
     grid-column: span 4 / span 4;
   }
 
-  .sa-settings .sm\:mt-0{
+  .sm\:mt-0{
     margin-top: 0px;
   }
 
-  .sa-settings .sm\:flex{
+  .sm\:flex{
     display: flex;
   }
 
-  .sa-settings .sm\:max-w-md{
+  .sm\:max-w-md{
     max-width: 28rem;
   }
 
-  .sa-settings .sm\:grid-cols-6{
+  .sm\:grid-cols-6{
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
-  .sa-settings .sm\:items-baseline{
+  .sm\:items-baseline{
     align-items: baseline;
   }
 
-  .sa-settings .sm\:px-4{
+  .sm\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-  .sa-settings .sm\:py-1\.5{
+  .sm\:py-1\.5{
     padding-top: 0.375rem;
     padding-bottom: 0.375rem;
   }
 
-  .sa-settings .sm\:text-sm{
+  .sm\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
 
-  .sa-settings .sm\:leading-6{
+  .sm\:leading-6{
     line-height: 1.5rem;
   }
 }
 
 @media (min-width: 768px){
-  .sa-settings .md\:flex{
+  .md\:flex{
     display: flex;
   }
 
-  .sa-settings .md\:justify-between{
+  .md\:justify-between{
     justify-content: space-between;
   }
 }
 
 @media (min-width: 1024px){
-  .sa-settings .lg\:px-0{
+  .lg\:px-0{
     padding-left: 0px;
     padding-right: 0px;
   }
