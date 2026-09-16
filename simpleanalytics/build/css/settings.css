@@ -820,6 +820,10 @@ input:where([type='file']):focus{
   display: inline-flex;
 }
 
+.table{
+  display: table;
+}
+
 .grid{
   display: grid;
 }
